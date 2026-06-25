@@ -1,13 +1,12 @@
-.corpo {
+.container {
   display: flex;
   flex-direction: column;
   height: 100vh;
   background: var(--cor-fundo-1);
 }
 
-
-.corpo[class*='ativo']::after {
-  content: '';
+.container[class*="active"]::after {
+  content: "";
   position: fixed;
   width: 100%;
   height: 100%;
@@ -23,11 +22,11 @@
 }
 
 .btn {
-  border: .1rem solid var(--cor-principal);
+  border: 0.1rem solid var(--cor-principal);
   background-color: var(--cor-fundo);
   padding: 1rem 3rem;
   font-size: 2rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   color: var(--branco);
   text-decoration: none;
 }

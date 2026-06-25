@@ -1,238 +1,413 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Conheça o Portfólio completo do especialista em perfomance e Web Felipe de Andrade, especialista em SEO e otimizações para sites"
+    />
 
-<head>
+    <title>Felipe De Andrade Mendonça - Portifólio</title>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Conheça o Portfólio completo do especialista em perfomance e Web Felipe de Andrade, especialista em SEO e otimizações para sites">
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon/favicon.svg"
+      type="image/x-icon"
+    />
 
-  <title>Felipe De Andrade Mendonça - Portifólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap"
+      rel="stylesheet preload prefetch"
+      as="style"
+      type="text/css"
+      crossorigin="anonymous"
+    />
 
-  <link rel="shortcut icon" href="./assets/favicon/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/normalize.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/animations.css" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <link rel="stylesheet" href="./src/css/block.css" />
+    <link rel="stylesheet" href="./src/css/menu/menu.css" />
+    <link rel="stylesheet" href="./src/css/banner/banner.css" />
+    <link rel="stylesheet" href="./src/css/about/about.css" />
+    <link rel="stylesheet" href="./src/css/skills/skills.css" />
+    <link rel="stylesheet" href="./src/css/projects/projects.css" />
+    <link rel="stylesheet" href="./src/css/article/article.css" />
+    <link rel="stylesheet" href="./src/css/contacts/contacts.css" />
+    <link rel="stylesheet" href="./src/css/copyright/copyright.css" />
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap" rel="stylesheet preload prefetch" as="style" type="text/css" crossorigin="anonymous">
+  <body class="container">
+    <header class="menu">
+      <img
+        class="menu__logo"
+        src="./assets/svg/logo.svg"
+        width="200"
+        height="50"
+        alt=""
+      />
 
-  <link rel="stylesheet" href="./src/css/normalize.css">
-  <link rel="stylesheet" href="./src/css/reset.css">
-  <link rel="stylesheet" href="./src/css/variaveis.css">
-  <link rel="stylesheet" href="./src/css/animations.css">
-  <link rel="stylesheet" href="./src/css/styles.css">
-  <link rel="stylesheet" href="./src/css/bloco.css">
-  <link rel="stylesheet" href="./src/css/menu/menu.css">
-  <link rel="stylesheet" href="./src/css/banner/banner.css">
-  <link rel="stylesheet" href="./src/css/sobre/sobre.css">
-  <link rel="stylesheet" href="./src/css/habilidades/habilidades.css">
-  <link rel="stylesheet" href="./src/css/projetos/projetos.css">
-  <link rel="stylesheet" href="./src/css/artigo/artigo.css">
-  <link rel="stylesheet" href="./src/css/contatos/contatos.css">
-  <link rel="stylesheet" href="./src/css/copyright/copyright.css">
+      <button
+        class="menu__toggle"
+        aria-label="Menu abrir/fechar"
+        data-menu-toggle
+      >
+        <svg
+          class="menu__icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 300 300"
+          xmlns:v="https://vecta.io/nano"
+        >
+          <path
+            d="M-.5-1.3h300v60H-.5v-60zm0 121.8h300v60H-.5v-60zM.5 240h300v60H.5v-60z"
+          />
+        </svg>
+      </button>
+      <nav class="menu__navigation" data-menu-bar>
+        <a class="menu__link" href="#sobre">Sobre</a>
+        <a class="menu__link" href="#habilidades">Habilidades</a>
+        <a class="menu__link" href="#projetos">Projetos</a>
+        <a class="menu__link" href="#contatos">Contatos</a>
+      </nav>
+    </header>
 
-</head>
-
-<body class="corpo">
-  <header class="menu">
-
-    <img class="menu__logo" src="./assets/svg/logo.svg" width="200" height="50" alt="">
-
-    <button class="menu__burguer" aria-label="Menu abrir/fechar" data-menu-hamburguer>
-      <svg class="menu__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" xmlns:v="https://vecta.io/nano">
-        <path d="M-.5-1.3h300v60H-.5v-60zm0 121.8h300v60H-.5v-60zM.5 240h300v60H.5v-60z" />
-      </svg>
-    </button>
-    <nav class="menu__navegacao" data-menu-barra>
-      <a class="menu__link" href="#sobre">Sobre</a>
-      <a class="menu__link" href="#habilidades">Habilidades</a>
-      <a class="menu__link" href="#projetos">Projetos</a>
-      <a class="menu__link" href="#contatos">Contatos</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="banner">
-      <div class="banner__conteudo">
-        <img src="./assets/felipe/eu-banner.webp" width="1141" height="959" class="banner__imagem" alt="Esse sou eu Felipe, usando um boné preto, camisa preta e uma jaqueta jeans, minha pele é branca não tenho cabelo, uso ocúlos e meus olhos são castanhos">
-        <span class="banner__prefixo">
-          Olá pessoas, <span class="txt-d">eu</span> sou
-        </span>
-        <h1 class="banner__titulo">
-          <span class="txt-d">F</span>elipe De Andrade
-        </h1>
-        <h2 class="banner__subtitulo">
-          Desenvolvedor <span class="txt-d">Full</span>-Stack
-        </h2>
-        <a class="btn" href="#projetos">
-          <span class="txt-d">P</span>ortifólio
-        </a>
-      </div>
-    </section>
-
-    <section id="sobre" class="bloco sobre">
-      <h2 class="bloco__titulo">
-        Sobre Mim
-      </h2>
-      <div class="bloco__divisao">
-        <div class="bloco__textos">
-          <p class="bloco__txt">
-            Sou um desenvolvedor full-stack com vasta experiência em otimização de performance web. Trabalhei em algumas agências de marketing e já realizei mais de 100 projetos no decorrer da minha carreira.
-          </p>
-          <p class="bloco__txt">
-            Minhas principais habilidades são HTML, CSS, JS, PHP, MySQL, Node.js, GULP e Otimização de performance.
-          </p>
-          <p class="bloco__txt">
-            Caso deseje conferir meus trabalhos e habilidades mais de perto, você pode acessar meu <a class="bloco__link" href="https://www.linkedin.com/in/fademendonca/" target="_blank">LinkedIn</a>, meu <a class="bloco__link" href="https://github.com/Epiled" target="_blank">Github</a> ou meu <a class="bloco__link" href="https://codepen.io/felipe_deam" target="_blank">Codepen</a>.
-          </p>
-          <p class="bloco__txt">
-            Obrigado por conferir meu portfólio. Estou animado para trabalhar com você e contribuir para o sucesso do seu projeto.
-          </p>
+    <main>
+      <section class="banner">
+        <div class="banner__content">
+          <img
+            src="./assets/felipe/eu-banner.webp"
+            width="1141"
+            height="959"
+            class="banner__image"
+            alt="Esse sou eu Felipe, usando um boné preto, camisa preta e uma jaqueta jeans, minha pele é branca não tenho cabelo, uso ocúlos e meus olhos são castanhos"
+          />
+          <span class="banner__prefix">
+            Olá pessoas, <span class="txt-d">eu</span> sou
+          </span>
+          <h1 class="banner__title">
+            <span class="txt-d">F</span>elipe De Andrade
+          </h1>
+          <h2 class="banner__subtitle">
+            Desenvolvedor <span class="txt-d">Full</span>-Stack
+          </h2>
+          <a class="btn" href="#projetos">
+            <span class="txt-d">P</span>ortifólio
+          </a>
         </div>
-        <img src="./assets/felipe/eu-sobre.webp" loading="lazy" width="1289" height="1138" alt="Esse sou eu Felipe, usando um boné preto com argolas, camisa branca e camisa social preta, minha pele é branca não tenho cabelo, uso ocúlos e meus olhos são castanhos" class="bloco__imagem bloco__imagem--felipe">
-      </div>
-    </section>
+      </section>
 
-    <section id="habilidades" class="bloco habilidades">
-      <h2 class="bloco__titulo">
-        Habilidades
-      </h2>
-      <ul class="habilidades__lista">
-        <li class="habilidades__item" data-animation>
-          <img class="habilidades__icone" src="./assets/svg/html5.svg" width="128" height="128" loading="lazy" alt="">
-          <h3 class="habilidades__subtitulo">HTML5</h3>
-        </li>
-        <li class="habilidades__item" data-animation>
-          <img class="habilidades__icone" src="./assets/svg/css3.svg" width="128" height="128" loading="lazy" alt="">
-          <h3 class="habilidades__subtitulo">CSS3</h3>
-        </li>
-        <li class="habilidades__item" data-animation>
-          <img class="habilidades__icone" src="./assets/svg/javascript.svg" width="128" height="128" loading="lazy" alt="">
-          <h3 class="habilidades__subtitulo">Javascript</h3>
-        </li>
-        <li class="habilidades__item" data-animation>
-          <img class="habilidades__icone" src="./assets/svg/php.svg" width="128" height="128" loading="lazy" alt="">
-          <h3 class="habilidades__subtitulo">PHP</h3>
-        </li>
-        <li class="habilidades__item" data-animation>
-          <img class="habilidades__icone" src="./assets/svg/node.svg" width="128" height="128" loading="lazy" alt="">
-          <h3 class="habilidades__subtitulo">Node.js</h3>
-        </li>
-        <li class="habilidades__item" data-animation>
-          <img class="habilidades__icone" src="./assets/svg/bootstrap.svg" width="128" height="128" loading="lazy" alt="">
-          <h3 class="habilidades__subtitulo">Bootstrap</h3>
-        </li>
-        <li class="habilidades__item" data-animation>
-          <img class="habilidades__icone" src="./assets/svg/jQuery.svg" width="128" height="128" loading="lazy" alt="">
-          <h3 class="habilidades__subtitulo">jQuery</h3>
-        </li>
-        <li class="habilidades__item" data-animation>
-          <img class="habilidades__icone" src="./assets/svg/react.svg" width="128" height="128" loading="lazy" alt="">
-          <h3 class="habilidades__subtitulo">React</h3>
-        </li>
-        <li class="habilidades__item" data-animation>
-          <img class="habilidades__icone" src="./assets/svg/sass.svg" width="24" height="24" loading="lazy" alt="">
-          <h3 class="habilidades__subtitulo">Sass</h3>
-        </li>
-        <li class="habilidades__item" data-animation>
-          <img class="habilidades__icone" src="./assets/svg/gulp.svg" width="24" height="24" loading="lazy" alt="">
-          <h3 class="habilidades__subtitulo">Gulp</h3>
-        </li>
-        <li class="habilidades__item" data-animation>
-          <img class="habilidades__icone" src="./assets/svg/figma.svg" width="24" height="24" loading="lazy" alt="">
-          <h3 class="habilidades__subtitulo">Figma</h3>
-        </li>
-        <li class="habilidades__item" data-animation>
-          <img class="habilidades__icone" src="./assets/svg/pwa.svg" width="24" height="24" loading="lazy" alt="">
-          <h3 class="habilidades__subtitulo">PWA</h3>
-        </li>
-        <li class="habilidades__item" data-animation>
-          <img class="habilidades__icone" src="./assets/svg/wordpress.svg" width="24" height="24" loading="lazy" alt="">
-          <h3 class="habilidades__subtitulo">Wordpress</h3>
-        </li>
-      </ul>
-    </section>
+      <section id="sobre" class="block about">
+        <h2 class="block__title">Sobre Mim</h2>
+        <div class="block__divide">
+          <div class="block__texts">
+            <p class="block__text">
+              Sou um desenvolvedor full-stack com vasta experiência em
+              otimização de performance web. Trabalhei em algumas agências de
+              marketing e já realizei mais de 100 projects no decorrer da minha
+              carreira.
+            </p>
+            <p class="block__text">
+              Minhas principais skills são HTML, CSS, JS, PHP, MySQL, Node.js,
+              GULP e Otimização de performance.
+            </p>
+            <p class="block__text">
+              Caso deseje conferir meus trabalhos e skills mais de perto, você
+              pode acessar meu
+              <a
+                class="block__link"
+                href="https://www.linkedin.com/in/fademendonca/"
+                target="_blank"
+                >LinkedIn</a
+              >, meu
+              <a
+                class="block__link"
+                href="https://github.com/Epiled"
+                target="_blank"
+                >Github</a
+              >
+              ou meu
+              <a
+                class="block__link"
+                href="https://codepen.io/felipe_deam"
+                target="_blank"
+                >Codepen</a
+              >.
+            </p>
+            <p class="block__text">
+              Obrigado por conferir meu portfólio. Estou animado para trabalhar
+              com você e contribuir para o sucesso do seu projeto.
+            </p>
+          </div>
+          <img
+            src="./assets/felipe/eu-sobre.webp"
+            loading="lazy"
+            width="1289"
+            height="1138"
+            alt="Esse sou eu Felipe, usando um boné preto com argolas, camisa branca e camisa social preta, minha pele é branca não tenho cabelo, uso ocúlos e meus olhos são castanhos"
+            class="block__image block__image--felipe"
+          />
+        </div>
+      </section>
 
-    <section id="projetos" class="bloco projetos">
-      <h2 class="bloco__titulo">
-        Projetos
-      </h2>
-      <ul class="projetos__lista" data-projetos-lista>
-      </ul>
-      <article class="artigo" data-projeto-artigo>
-
-      </article>
-    </section>
-  </main>
-
-  <footer>
-    <div id="contatos" class="bloco contatos">
-      <h2 class="bloco__titulo">
-        Contatos
-      </h2>
-      <address>
-        <ul class="contatos__lista">
-          <li class="contatos__item">
-            <img src="./assets/svg/whats-min.svg" width="88" height="88" alt="" class="contatos__icone">
-            <div class="contatos__intro">
-              <h3 class="contatos__titulo">
-                Celular
-              </h3>
-              <a class="contatos__link" href="tel:+1195364-6939" target="_blank">
-                (11) 9 5364-6939
-              </a>
-            </div>
+      <section id="habilidades" class="block skills">
+        <h2 class="block__title">Habilidades</h2>
+        <ul class="skills__list">
+          <li class="skills__item" data-animation>
+            <img
+              class="skills__icon"
+              src="./assets/svg/html5.svg"
+              width="128"
+              height="128"
+              loading="lazy"
+              alt=""
+            />
+            <h3 class="skills__subtitle">HTML5</h3>
           </li>
-          <li class="contatos__item">
-            <img src="./assets/svg/mail-min.svg" width="98" height="78" alt="" class="contatos__icone">
-            <div class="contatos__intro">
-              <h3 class="contatos__titulo">
-                E-mail
-              </h3>
-              <a class="contatos__link" href="mail:felipe.deam98@gmail.com" target="_blank">
-                felipe.deam98@gmail.com
-              </a>
-            </div>
+          <li class="skills__item" data-animation>
+            <img
+              class="skills__icon"
+              src="./assets/svg/css3.svg"
+              width="128"
+              height="128"
+              loading="lazy"
+              alt=""
+            />
+            <h3 class="skills__subtitle">CSS3</h3>
           </li>
-          <li class="contatos__item">
-            <img src="./assets/svg/linkdln-min.svg" width="82" height="82" alt="" class="contatos__icone">
-            <div class="contatos__intro">
-              <h3 class="contatos__titulo">
-                Linkdlin
-              </h3>
-              <a class="contatos__link" href="https://www.linkedin.com/in/fademendonca/" target="_blank">
-                f.mendonca
-              </a>
-            </div>
+          <li class="skills__item" data-animation>
+            <img
+              class="skills__icon"
+              src="./assets/svg/javascript.svg"
+              width="128"
+              height="128"
+              loading="lazy"
+              alt=""
+            />
+            <h3 class="skills__subtitle">Javascript</h3>
           </li>
-          <li class="contatos__item">
-            <img src="./assets/svg/github-min.svg" width="50" height="50" alt="" class="contatos__icone">
-            <div class="contatos__intro">
-              <h3 class="contatos__titulo">
-                Github
-              </h3>
-              <a class="contatos__link" href="https://www.linkedin.com/in/fademendonca/" target="_blank">
-                @epiled
-              </a>
-            </div>
+          <li class="skills__item" data-animation>
+            <img
+              class="skills__icon"
+              src="./assets/svg/php.svg"
+              width="128"
+              height="128"
+              loading="lazy"
+              alt=""
+            />
+            <h3 class="skills__subtitle">PHP</h3>
+          </li>
+          <li class="skills__item" data-animation>
+            <img
+              class="skills__icon"
+              src="./assets/svg/node.svg"
+              width="128"
+              height="128"
+              loading="lazy"
+              alt=""
+            />
+            <h3 class="skills__subtitle">Node.js</h3>
+          </li>
+          <li class="skills__item" data-animation>
+            <img
+              class="skills__icon"
+              src="./assets/svg/bootstrap.svg"
+              width="128"
+              height="128"
+              loading="lazy"
+              alt=""
+            />
+            <h3 class="skills__subtitle">Bootstrap</h3>
+          </li>
+          <li class="skills__item" data-animation>
+            <img
+              class="skills__icon"
+              src="./assets/svg/jQuery.svg"
+              width="128"
+              height="128"
+              loading="lazy"
+              alt=""
+            />
+            <h3 class="skills__subtitle">jQuery</h3>
+          </li>
+          <li class="skills__item" data-animation>
+            <img
+              class="skills__icon"
+              src="./assets/svg/react.svg"
+              width="128"
+              height="128"
+              loading="lazy"
+              alt=""
+            />
+            <h3 class="skills__subtitle">React</h3>
+          </li>
+          <li class="skills__item" data-animation>
+            <img
+              class="skills__icon"
+              src="./assets/svg/sass.svg"
+              width="24"
+              height="24"
+              loading="lazy"
+              alt=""
+            />
+            <h3 class="skills__subtitle">Sass</h3>
+          </li>
+          <li class="skills__item" data-animation>
+            <img
+              class="skills__icon"
+              src="./assets/svg/gulp.svg"
+              width="24"
+              height="24"
+              loading="lazy"
+              alt=""
+            />
+            <h3 class="skills__subtitle">Gulp</h3>
+          </li>
+          <li class="skills__item" data-animation>
+            <img
+              class="skills__icon"
+              src="./assets/svg/figma.svg"
+              width="24"
+              height="24"
+              loading="lazy"
+              alt=""
+            />
+            <h3 class="skills__subtitle">Figma</h3>
+          </li>
+          <li class="skills__item" data-animation>
+            <img
+              class="skills__icon"
+              src="./assets/svg/pwa.svg"
+              width="24"
+              height="24"
+              loading="lazy"
+              alt=""
+            />
+            <h3 class="skills__subtitle">PWA</h3>
+          </li>
+          <li class="skills__item" data-animation>
+            <img
+              class="skills__icon"
+              src="./assets/svg/wordpress.svg"
+              width="24"
+              height="24"
+              loading="lazy"
+              alt=""
+            />
+            <h3 class="skills__subtitle">Wordpress</h3>
           </li>
         </ul>
-      </address>
-    </div>
+      </section>
 
-    <div class="bloco copyright">
-      <h3 class="copyright__titulo">Felipe De Andrade Mendonça</h3>
-      <span class="copyright__txt">Todos os direitors reservados de acordo com as politicas de
-        <a href="./copyright.html" class="copyright__link">@Copyright.</a>
-      </span>
-    </div>
+      <section id="projetos" class="block projects">
+        <h2 class="block__title">Projetos</h2>
+        <ul class="projects__list" data-projects-list></ul>
+        <article class="article" data-project-article></article>
+      </section>
+    </main>
 
-  </footer>
+    <footer>
+      <div id="contatos" class="block contacts">
+        <h2 class="block__title">Contatos</h2>
+        <address>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <img
+                src="./assets/svg/whats-min.svg"
+                width="88"
+                height="88"
+                alt=""
+                class="contacts__icon"
+              />
+              <div class="contacts__introduction">
+                <h3 class="contacts__title">Celular</h3>
+                <a
+                  class="contacts__link"
+                  href="tel:+1195364-6939"
+                  target="_blank"
+                >
+                  (11) 9 5364-6939
+                </a>
+              </div>
+            </li>
+            <li class="contacts__item">
+              <img
+                src="./assets/svg/mail-min.svg"
+                width="98"
+                height="78"
+                alt=""
+                class="contacts__icon"
+              />
+              <div class="contacts__introduction">
+                <h3 class="contacts__title">E-mail</h3>
+                <a
+                  class="contacts__link"
+                  href="mail:felipe.deam98@gmail.com"
+                  target="_blank"
+                >
+                  felipe.deam98@gmail.com
+                </a>
+              </div>
+            </li>
+            <li class="contacts__item">
+              <img
+                src="./assets/svg/linkdln-min.svg"
+                width="82"
+                height="82"
+                alt=""
+                class="contacts__icon"
+              />
+              <div class="contacts__introduction">
+                <h3 class="contacts__title">Linkdlin</h3>
+                <a
+                  class="contacts__link"
+                  href="https://www.linkedin.com/in/fademendonca/"
+                  target="_blank"
+                >
+                  f.mendonca
+                </a>
+              </div>
+            </li>
+            <li class="contacts__item">
+              <img
+                src="./assets/svg/github-min.svg"
+                width="50"
+                height="50"
+                alt=""
+                class="contacts__icon"
+              />
+              <div class="contacts__introduction">
+                <h3 class="contacts__title">Github</h3>
+                <a
+                  class="contacts__link"
+                  href="https://www.linkedin.com/in/fademendonca/"
+                  target="_blank"
+                >
+                  @epiled
+                </a>
+              </div>
+            </li>
+          </ul>
+        </address>
+      </div>
 
-  <script src="./src/js/menu.js"></script>
-  <script type="module" src="./src/js/revelAnimation.js"></script>
-  <script type="module" src="./src/js/app.js"></script>
-  <!-- <script type="module" src="./src/js/projetos.js"></script> -->
-</body>
+      <div class="block copyright">
+        <h3 class="copyright__title">Felipe De Andrade Mendonça</h3>
+        <span class="copyright__text"
+          >Todos os direitors reservados de acordo com as politicas de
+          <a href="./copyright.html" class="copyright__link">@Copyright.</a>
+        </span>
+      </div>
+    </footer>
 
+    <script src="./src/js/menu.js"></script>
+    <script type="module" src="./src/js/revelAnimation.js"></script>
+    <script type="module" src="./src/js/app.js"></script>
+    <!-- <script type="module" src="./src/js/projects.js"></script> -->
+  </body>
 </html>

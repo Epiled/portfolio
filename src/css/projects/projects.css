@@ -1,57 +1,58 @@
-.projetos {}
+.projects {
+}
 
-.projetos__lista {
+.projects__list {
   padding: 0;
   display: flex;
   flex-direction: column;
   gap: 3rem;
 }
 
-.projetos__item {
+.projects__item {
   display: flex;
   flex-direction: column;
-  border-radius: .5rem;
-  border: .1rem solid var(--cor-principal);
+  border-radius: 0.5rem;
+  border: 0.1rem solid var(--cor-principal);
   overflow: hidden;
   opacity: 0;
 }
 
-.projetos__item.active {
-  animation: topRevel .5s forwards;
+.projects__item.active {
+  animation: topRevel 0.5s forwards;
 }
 
-.projetos__imagem {
+.projects__image {
   height: 40vw;
   object-fit: cover;
 }
 
-.projetos__intro {
+.projects__introduction {
   display: flex;
   flex-direction: column;
   flex: auto;
   padding: 1rem;
 }
 
-.projetos__titulo {
+.projects__title {
   color: var(--branco);
   font-weight: 400;
   font-size: 2rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
   margin: 0 0 1rem 0;
   width: fit-content;
-  border-bottom: .1rem solid var(--cor-principal);
+  border-bottom: 0.1rem solid var(--cor-principal);
 }
 
-.projetos__txt {
+.projects__text {
   color: var(--branco);
   font-size: 1.6rem;
   margin-bottom: 1rem;
 }
 
-.projetos__btn {
+.projects__button {
   background: none;
   border: 0;
-  border-bottom: .1rem solid var(--cor-principal);
+  border-bottom: 0.1rem solid var(--cor-principal);
   color: var(--branco);
   cursor: pointer;
   display: block;
@@ -63,32 +64,32 @@
 }
 
 @media screen and (min-width: 600px) {
-  .projetos__lista {
+  .projects__list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .projetos__imagem {
+  .projects__image {
     height: 20vw;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .projetos__lista {
+  .projects__list {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .projetos__imagem {
+  .projects__image {
     height: 15vw;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .projetos__lista {
+  .projects__list {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .projetos__imagem {
+  .projects__image {
     height: 10vw;
   }
 }

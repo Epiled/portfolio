@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 img {
@@ -24,6 +24,6 @@ ol {
 
 @media screen and (min-width: 1440px) {
   * {
-    font-size: .75vw;
+    font-size: 0.75vw;
   }
 }

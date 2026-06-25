@@ -1,4 +1,4 @@
-class ProjetoController {
+class ProjectController {
   constructor(model, view) {
     this.model = model;
     this.view = view;
@@ -9,4 +9,4 @@ class ProjetoController {
   }
 }
 
-export default ProjetoController;
+export default ProjectController;
