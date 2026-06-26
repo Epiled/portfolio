@@ -37,7 +37,7 @@ projectsItems.forEach((project) => {
   new Project(project);
 });
 
-// let projectButton = document.querySelector('[data-projects-btn]');
+// let projectButton = document.querySelector('[data-projects-button]');
 // let projectArticle = document.querySelector('[data-project-article]');
 
 // projectButton.addEventListener('click', (e) => {

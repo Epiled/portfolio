@@ -77,7 +77,7 @@ class ProjectView {
     articleTitle.classList.add("article__title");
 
     const articleTxt = document.createElement("p");
-    articleTxt.classList.add("article__txt");
+    articleTxt.classList.add("article__text");
 
     const articleTechnologiesTitle = document.createElement("h4");
     articleTechnologiesTitle.classList.add("article__title");
