@@ -16,8 +16,8 @@
   width: 12.5rem;
   height: 12.5rem;
   padding: 1rem;
-  background: var(--cor-principal-25);
-  border: 0.1rem solid var(--cor-principal);
+  background: var(--color-primary-alpha-25);
+  border: 0.1rem solid var(--color-primary);
   backdrop-filter: blur(0.5rem);
   list-style: none;
   border-radius: 1rem 0;
@@ -30,7 +30,7 @@
 
 .skills__subtitle {
   text-align: center;
-  color: var(--branco);
+  color: var(--color-neutral-white);
   font-size: 2rem;
   margin: 1rem 0 0 0;
 }

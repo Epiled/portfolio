@@ -4,14 +4,14 @@
   width: 100%;
   justify-content: space-between;
   padding: 1rem 3rem;
-  background-color: var(--cor-fundo-menu);
-  border-bottom: 0.1rem solid var(--cor-principal);
+  background-color: var(--color-surface-menu);
+  border-bottom: 0.1rem solid var(--color-primary);
   z-index: 1;
 }
 
 .menu__logo {
   width: 20rem;
-  fill: var(--branco);
+  fill: var(--color-neutral-white);
 }
 
 .menu__toggle {
@@ -20,45 +20,45 @@
   width: 5rem;
   height: 5rem;
   padding: 0.75rem;
-  border: 0.1rem solid var(--cor-principal);
+  border: 0.1rem solid var(--color-primary);
   border-radius: 0.5rem;
   background: transparent;
 }
 
 .menu__icon {
-  fill: var(--branco);
+  fill: var(--color-neutral-white);
 }
 
 .menu__navigation {
   position: fixed;
-  top: var(--altura-menu);
+  top: var(--menu-height);
   left: min(-50vw, 0rem);
   display: flex;
   flex-direction: column;
   width: 50vw;
   max-width: 32rem;
-  height: calc(100vh - var(--altura-menu));
-  border-right: 0.1rem solid var(--cor-principal);
-  background: var(--cor-fundo-menu);
+  height: calc(100vh - var(--menu-height));
+  border-right: 0.1rem solid var(--color-primary);
+  background: var(--color-surface-menu);
   transition: left 1s;
 }
 
 .menu__navigation--open {
-  top: var(--altura-menu);
+  top: var(--menu-height);
   left: min(0vw, 0rem);
 }
 
 .menu__link {
-  color: var(--branco);
+  color: var(--color-neutral-white);
   padding: 1rem 3rem;
   font-size: 1.6rem;
   text-decoration: none;
-  border-bottom: 0.1rem solid var(--cor-principal);
+  border-bottom: 0.1rem solid var(--color-primary);
   transition: background 1.5s;
 }
 
 .menu__link:hover {
-  background: var(--cor-principal);
+  background: var(--color-primary);
   transition: background 0.5s;
 }
 

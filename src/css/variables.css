@@ -1,23 +1,29 @@
 :root {
-  --cor-principal: #bf0600;
-  --cor-principal-6: #bf06000f;
-  --cor-principal-25: #bf060040;
-  --cor-principal-60: #bf060099;
+  /* Primary Colors & Alpha Variations */
+  --color-primary: #bf0600;
+  --color-primary-alpha-06: #bf06000f;
+  --color-primary-alpha-25: #bf060040;
+  --color-primary-alpha-60: #bf060099;
 
-  --cor-fundo-menu: #0a0909cc;
-  --cor-fundo-1: #0a0909;
-  --cor-fundo-1-25: #0a090940;
-  --cor-fundo-1-75: #0a0909bf;
-  --cor-fundo-2: #bf060040;
+  /* Surface & Background Colors */
+  --color-surface-menu: #0a0909cc;
+  --color-surface-primary: #0a0909;
+  --color-surface-primary-alpha-25: #0a090940;
+  --color-surface-primary-alpha-75: #0a0909bf;
+  --color-surface-secondary: #bf060040;
 
-  --cor-font-1: #646363;
+  /* Typography Colors */
+  --color-text-primary: #646363;
 
-  --altura-menu: 7.1rem;
+  /* Structural Dimensions */
+  --menu-height: 7.1rem;
 
-  --preto-20: #00000033;
-  --preto-60: #00000099;
-  --branco: #ffffff;
+  /* Neutral Colors & Alpha */
+  --color-neutral-black-alpha-20: #00000033;
+  --color-neutral-black-alpha-60: #00000099;
+  --color-neutral-white: #ffffff;
 
-  --query-tablet: 1028px;
-  --query-desktop: 1440px;
+  /* Layout Breakpoints */
+  --breakpoint-tablet: 1028px;
+  --breakpoint-desktop: 1440px;
 }
