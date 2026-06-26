@@ -1,6 +1,7 @@
-.habilidades {}
+.skills {
+}
 
-.habilidades__lista {
+.skills__list {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -8,7 +9,7 @@
   justify-content: center;
 }
 
-.habilidades__item {
+.skills__item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,34 +17,34 @@
   height: 12.5rem;
   padding: 1rem;
   background: var(--cor-principal-25);
-  border: .1rem solid var(--cor-principal);
-  backdrop-filter: blur(.5rem);
+  border: 0.1rem solid var(--cor-principal);
+  backdrop-filter: blur(0.5rem);
   list-style: none;
   border-radius: 1rem 0;
   opacity: 0;
 }
 
-.habilidades__item.active {
-  animation: topRevel .5s forwards;
+.skills__item.active {
+  animation: topRevel 0.5s forwards;
 }
 
-.habilidades__subtitulo {
+.skills__subtitle {
   text-align: center;
   color: var(--branco);
   font-size: 2rem;
   margin: 1rem 0 0 0;
 }
 
-.habilidades__icone {
+.skills__icon {
   width: 65%;
 }
 
 @media screen and (min-width: 1024px) {
-  .habilidades__lista {
+  .skills__list {
     gap: 2rem;
   }
 
-  .habilidades__item {
+  .skills__item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,14 +54,15 @@
     max-height: 10rem;
   }
 
-  .habilidades__subtitulo {
+  .skills__subtitle {
     font-size: 1.5rem;
   }
 
-  .habilidades__icone {
+  .skills__icon {
     display: inline-block;
     width: 75%;
   }
 }
 
-@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 1440px) {
+}

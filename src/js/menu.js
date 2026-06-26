@@ -1,14 +1,14 @@
-const menuBotao = document.querySelector("[data-menu-hamburguer]");
-const menuBarra = document.querySelector("[data-menu-barra]");
+const menuButton = document.querySelector("[data-menu-toggle]");
+const menuBar = document.querySelector("[data-menu-bar]");
 
-menuBotao.addEventListener("click", function() {
-  document.documentElement.classList.toggle("menu__ativo");
-  menuBarra.classList.toggle("menu__navegacao--aberto");
+menuButton.addEventListener("click", function () {
+  document.documentElement.classList.toggle("menu__active");
+  menuBar.classList.toggle("menu__navigation--open");
 });
 
 document.documentElement.onclick = function (event) {
   if (event.target === document.documentElement) {
-    document.documentElement.classList.toggle("menu__ativo");
-    menuBarra.classList.toggle("menu__navegacao--aberto");
+    document.documentElement.classList.toggle("menu__active");
+    menuBar.classList.toggle("menu__navigation--open");
   }
 };

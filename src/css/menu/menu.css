@@ -5,7 +5,7 @@
   justify-content: space-between;
   padding: 1rem 3rem;
   background-color: var(--cor-fundo-menu);
-  border-bottom: .1rem solid var(--cor-principal);
+  border-bottom: 0.1rem solid var(--cor-principal);
   z-index: 1;
 }
 
@@ -14,14 +14,14 @@
   fill: var(--branco);
 }
 
-.menu__burguer {
+.menu__toggle {
   cursor: pointer;
   box-sizing: border-box;
   width: 5rem;
   height: 5rem;
-  padding: .75rem;
-  border: .1rem solid var(--cor-principal);
-  border-radius: .5rem;
+  padding: 0.75rem;
+  border: 0.1rem solid var(--cor-principal);
+  border-radius: 0.5rem;
   background: transparent;
 }
 
@@ -29,7 +29,7 @@
   fill: var(--branco);
 }
 
-.menu__navegacao {
+.menu__navigation {
   position: fixed;
   top: var(--altura-menu);
   left: min(-50vw, 0rem);
@@ -38,12 +38,12 @@
   width: 50vw;
   max-width: 32rem;
   height: calc(100vh - var(--altura-menu));
-  border-right: .1rem solid var(--cor-principal);
+  border-right: 0.1rem solid var(--cor-principal);
   background: var(--cor-fundo-menu);
   transition: left 1s;
 }
 
-.menu__navegacao--aberto {
+.menu__navigation--open {
   top: var(--altura-menu);
   left: min(0vw, 0rem);
 }
@@ -53,13 +53,13 @@
   padding: 1rem 3rem;
   font-size: 1.6rem;
   text-decoration: none;
-  border-bottom: .1rem solid var(--cor-principal);
+  border-bottom: 0.1rem solid var(--cor-principal);
   transition: background 1.5s;
 }
 
 .menu__link:hover {
   background: var(--cor-principal);
-  transition: background .5s;
+  transition: background 0.5s;
 }
 
 @media screen and (min-width: 1024px) {
@@ -69,7 +69,7 @@
     height: 5rem;
   }
 
-  .menu__burguer {
+  .menu__toggle {
     display: none;
   }
 
@@ -77,9 +77,9 @@
     width: auto;
     height: 100%;
     padding: 1rem 0;
-}
+  }
 
-  .menu__navegacao {
+  .menu__navigation {
     position: initial;
     width: initial;
     height: initial;

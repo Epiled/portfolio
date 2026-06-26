@@ -1,15 +1,15 @@
-import projetos from "./mocks/projetos.js";
-import ProjetoController from "./controllers/projetoController.js";
-import ProjetoModel from "./models/projetoModel.js";
-import ProjetoView from "./views/projetoView.js";
-import { animacao } from "./revelAnimation.js";
+import projects from "./mocks/projects.js";
+import ProjectController from "./controllers/ProjectController.js";
+import ProjectModel from "./models/ProjectModel.js";
+import ProjectView from "./views/ProjectView.js";
+import { animation } from "./revelAnimation.js";
 
-projetos.map(projeto => {
-  const model = new ProjetoModel(projeto);
-  const view = new ProjetoView('[data-projetos-lista]');
-  const controller = new ProjetoController(model, view);
-  controller.updateView()
+projects.map((project) => {
+  const model = new ProjectModel(project);
+  const view = new ProjectView("[data-projects-list]");
+  const controller = new ProjectController(model, view);
+  controller.updateView();
 });
 
-animacao.atualizaLista();
-animacao.initAnimaton();
+animation.updateList();
+animation.initAnimation();

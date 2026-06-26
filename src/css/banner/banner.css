@@ -9,7 +9,7 @@
   background-size: cover;
 }
 
-.banner__conteudo {
+.banner__content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,23 +18,23 @@
   margin-bottom: 5rem;
 }
 
-.banner__imagem {
+.banner__image {
   height: 25rem;
   width: auto;
   margin-bottom: 2.5rem;
 }
 
-.banner__prefixo {
+.banner__prefix {
   font-size: 2rem;
 }
 
-.banner__titulo {
+.banner__title {
   font-size: 3.6rem;
   font-weight: 600;
   margin: 1rem 0;
 }
 
-.banner__subtitulo {
+.banner__subtitle {
   font-size: 2.4rem;
   font-weight: 400;
   margin: 0 0 1rem 0;
@@ -45,7 +45,7 @@
     height: 90vh;
   }
 
-  .banner__imagem {
+  .banner__image {
     height: 35vh;
   }
 }

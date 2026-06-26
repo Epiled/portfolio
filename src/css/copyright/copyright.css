@@ -9,11 +9,11 @@
   padding: 5rem 3rem;
 }
 
-.copyright__titulo {
+.copyright__title {
   font-size: 2.5rem;
 }
 
-.copyright__txt {
+.copyright__text {
   font-size: 1.6rem;
 }
 
@@ -21,4 +21,3 @@
   font-size: 1.6rem;
   color: var(--cor-font-1);
 }
-
