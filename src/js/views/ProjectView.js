@@ -67,7 +67,7 @@ class ProjectView {
     articleContainer.classList.add("article__container");
 
     const articleMedia = document.createElement("video");
-    articleMedia.src = `./assets/projects/${project.video}`;
+    articleMedia.src = `./assets/projetos/${project.video}`;
     articleMedia.controls = true;
     articleMedia.muted = true;
 
