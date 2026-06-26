@@ -14,7 +14,7 @@ class ProjectView {
     projectListItem.classList.add("projects__item");
 
     const projectThumb = document.createElement("img");
-    projectThumb.src = `./assets/projetos/${project.thumb}`;
+    projectThumb.src = `./src/assets/img/projetos/${project.thumb}`;
     projectThumb.width = projectThumb.width;
     projectThumb.height = projectThumb.height;
     projectThumb.classList.add("projects__image");
@@ -67,7 +67,7 @@ class ProjectView {
     articleContainer.classList.add("article__container");
 
     const articleMedia = document.createElement("video");
-    articleMedia.src = `./assets/projetos/${project.video}`;
+    articleMedia.src = `./src/assets/img/projetos/${project.video}`;
     articleMedia.controls = true;
     articleMedia.muted = true;
 

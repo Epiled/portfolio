@@ -8,7 +8,7 @@
       var(--color-neutral-black-alpha-60),
       var(--color-neutral-black-alpha-60)
     ),
-    url(../../../assets/fundos/giphy-picos.gif);
+    url(../../../assets/img/fundos/giphy-picos.gif);
   background-position: top center;
   background-size: cover;
 }
