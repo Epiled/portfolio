@@ -89,7 +89,6 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/
@@ -129,5 +128,11 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-#asstes não necessários
+# unnecessary files
 /assets/projetos/converter_formato
+
+# ignore files
+.vercel
+.env*.local
+dist
+temp
