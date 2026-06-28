@@ -1,4 +1,4 @@
-<!-- ![Social Preview](./design/github/social-preview/social-preview.png) -->
+[Social Preview](./design/github/social-preview/social-preview.png)
 
 <h1 align="center"> 🎩 Portfólio 👨‍💻 </h1>
 
@@ -27,7 +27,7 @@
 
 ## 📖 Overview
 
-Comming Soon!
+This repository contains my personal portfolio, designed to showcase my projects, technical skills, and professional experience as a Frontend Developer. It serves as a central hub where visitors can explore featured applications, learn about my development journey, and easily access my contact information. The project was built with a strong focus on performance, responsiveness, accessibility, and a modern user experience.
 
 ## 🛠 Technologies
 
@@ -39,7 +39,7 @@ The following technologies were used to build this project:
 
 ## ⚡ Performance & PWA
 
-Comming Soon!
+![Lighthouse Performance](./design/github/lighthouse-report/lighthouse-report-light.png)
 
 ## 🚀 Demo
 
@@ -49,15 +49,15 @@ Portfólio: [https://epiled.github.io/portfolio/](https://epiled.github.io/portf
 
 ### Desktop
 
-Comming Soon!
+Coming Soon!
 
 ### Mobile
 
-Comming Soon!
+Coming Soon!
 
 ## 📦 Install and Use
 
-This project currently operates without a local development server or build step, meaning it can be run directly from your file system.
+**Prerequisites:** Node.js (v22.x) or higher installed.
 
 1. Clone the repository:
 ```bash
@@ -65,13 +65,30 @@ git clone https://github.com/Epiled/portfolio.git
 cd portfolio
 ```
 
-### Local Execution
+2. Install the dependencies:
+```bash
+npm install
+```
 
-To view and interact with the project, simply open the index.html file in your preferred web browser. You can do this by double-clicking the file in your file explorer or dragging it into an open browser tab.
+3. Run the development environment (Build + Watch + Server):
+```bash
+npm run dev
+```
 
 ## 📂 File Structure
 
-Comming Soon!
+Below is the project architecture. All development should be done inside the src/ folder
+
+```
+portifolio/
+├── design/                  # Wireframes, videos and assets for documentation
+├── src/                     # Main source code (Development)
+│   ├── assets/              # Original images and icons
+│   ├── css/                 # Styles following architecture BEM
+│   └── js/                  # UI logic and PWA registration
+├── index.html               # Base semantic structure and main markup
+└── package.json             # Project dependencies and npm scripts
+```
 
 ## 🎨 Reference & Inspiration
 
