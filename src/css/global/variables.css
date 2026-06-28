@@ -1,0 +1,29 @@
+:root {
+  /* Primary Colors & Alpha Variations */
+  --color-primary: #bf0600;
+  --color-primary-alpha-06: #bf06000f;
+  --color-primary-alpha-25: #bf060040;
+  --color-primary-alpha-60: #bf060099;
+
+  /* Surface & Background Colors */
+  --color-surface-menu: #0a0909cc;
+  --color-surface-primary: #0a0909;
+  --color-surface-primary-alpha-25: #0a090940;
+  --color-surface-primary-alpha-75: #0a0909bf;
+  --color-surface-secondary: #bf060040;
+
+  /* Typography Colors */
+  --color-text-primary: #646363;
+
+  /* Structural Dimensions */
+  --menu-height: 7.1rem;
+
+  /* Neutral Colors & Alpha */
+  --color-neutral-black-alpha-20: #00000033;
+  --color-neutral-black-alpha-60: #00000099;
+  --color-neutral-white: #ffffff;
+
+  /* Layout Breakpoints */
+  --breakpoint-tablet: 1028px;
+  --breakpoint-desktop: 1440px;
+}

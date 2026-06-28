@@ -1,67 +1,67 @@
 const skills = {
   html: {
     text: "HTML5",
-    image: "./assets/svg/html5.svg",
+    image: "./src/assets/svg/icons-ui/html5.svg",
   },
   css: {
     text: "CSS3",
-    image: "./assets/svg/css3.svg",
+    image: "./src/assets/svg/icons-ui/css3.svg",
   },
   javascript: {
     text: "Javascript",
-    image: "./assets/svg/javascript.svg",
+    image: "./src/assets/svg/icons-ui/javascript.svg",
   },
   php: {
     text: "PHP",
-    image: "./assets/svg/php.svg",
+    image: "./src/assets/svg/icons-ui/php.svg",
   },
   node: {
     text: "Node",
-    image: "./assets/svg/node.svg",
+    image: "./src/assets/svg/icons-ui/node.svg",
   },
   bootstrap: {
     text: "Bootstrap",
-    image: "./assets/svg/bootstrap.svg",
+    image: "./src/assets/svg/icons-ui/bootstrap.svg",
   },
   jquery: {
     text: "jQuery",
-    image: "./assets/svg/jQuery.svg",
+    image: "./src/assets/svg/icons-ui/jQuery.svg",
   },
   react: {
     text: "React",
-    image: "./assets/svg/react.svg",
+    image: "./src/assets/svg/icons-ui/react.svg",
   },
   sass: {
     text: "SASS",
-    image: "./assets/svg/sass.svg",
+    image: "./src/assets/svg/icons-ui/sass.svg",
   },
   gulp: {
     text: "Gulp",
-    image: "./assets/svg/gulp.svg",
+    image: "./src/assets/svg/icons-ui/gulp.svg",
   },
   figma: {
     text: "Figma",
-    image: "./assets/svg/figma.svg",
+    image: "./src/assets/svg/icons-ui/figma.svg",
   },
   handlebars: {
     text: "Handlebars",
-    image: "./assets/svg/handlebars.svg",
+    image: "./src/assets/svg/icons-ui/handlebars.svg",
   },
   mysql: {
     text: "MySQL",
-    image: "./assets/svg/mysql.svg",
+    image: "./src/assets/svg/icons-ui/mysql.svg",
   },
   pwa: {
     text: "PWA",
-    image: "./assets/svg/pwa.svg",
+    image: "./src/assets/svg/icons-ui/pwa.svg",
   },
   swiper: {
     text: "Swiper",
-    image: "./assets/svg/swiper.svg",
+    image: "./src/assets/svg/icons-ui/swiper.svg",
   },
   wordpress: {
     text: "wordpress",
-    image: "./assets/svg/wordpress.svg",
+    image: "./src/assets/svg/icons-ui/wordpress.svg",
   },
 };
 

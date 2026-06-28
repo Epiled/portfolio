@@ -27,27 +27,35 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="./src/css/normalize.css" />
-    <link rel="stylesheet" href="./src/css/reset.css" />
-    <link rel="stylesheet" href="./src/css/variables.css" />
-    <link rel="stylesheet" href="./src/css/animations.css" />
-    <link rel="stylesheet" href="./src/css/styles.css" />
-    <link rel="stylesheet" href="./src/css/block.css" />
-    <link rel="stylesheet" href="./src/css/menu/menu.css" />
-    <link rel="stylesheet" href="./src/css/banner/banner.css" />
-    <link rel="stylesheet" href="./src/css/about/about.css" />
-    <link rel="stylesheet" href="./src/css/skills/skills.css" />
-    <link rel="stylesheet" href="./src/css/projects/projects.css" />
-    <link rel="stylesheet" href="./src/css/article/article.css" />
-    <link rel="stylesheet" href="./src/css/contacts/contacts.css" />
-    <link rel="stylesheet" href="./src/css/copyright/copyright.css" />
+    <link rel="stylesheet" href="./src/css/global/normalize.css" />
+    <link rel="stylesheet" href="./src/css/global/reset.css" />
+    <link rel="stylesheet" href="./src/css/global/variables.css" />
+    <link rel="stylesheet" href="./src/css/global/animations.css" />
+    <link rel="stylesheet" href="./src/css/global/util.css" />
+
+    <link rel="stylesheet" href="./src/css/components/block/block.css" />
+    <link rel="stylesheet" href="./src/css/components/menu/menu.css" />
+    <link rel="stylesheet" href="./src/css/components/banner/banner.css" />
+    <link rel="stylesheet" href="./src/css/components/button/button.css" />
+    <link
+      rel="stylesheet"
+      href="./src/css/components/container/container.css"
+    />
+    <link rel="stylesheet" href="./src/css/components/skills/skills.css" />
+    <link rel="stylesheet" href="./src/css/components/projects/projects.css" />
+    <link rel="stylesheet" href="./src/css/components/article/article.css" />
+    <link rel="stylesheet" href="./src/css/components/contacts/contacts.css" />
+    <link
+      rel="stylesheet"
+      href="./src/css/components/copyright/copyright.css"
+    />
   </head>
 
   <body class="container">
     <header class="menu">
       <img
         class="menu__logo"
-        src="./assets/svg/logo.svg"
+        src="./src/assets/svg/logos/logo.svg"
         width="200"
         height="50"
         alt=""
@@ -81,7 +89,7 @@
       <section class="banner">
         <div class="banner__content">
           <img
-            src="./assets/felipe/eu-banner.webp"
+            src="./src/assets/img/felipe/eu-banner.webp"
             width="1141"
             height="959"
             class="banner__image"
@@ -96,7 +104,7 @@
           <h2 class="banner__subtitle">
             Desenvolvedor <span class="txt-d">Full</span>-Stack
           </h2>
-          <a class="btn" href="#projetos">
+          <a class="button" href="#projetos">
             <span class="txt-d">P</span>ortifólio
           </a>
         </div>
@@ -145,7 +153,7 @@
             </p>
           </div>
           <img
-            src="./assets/felipe/eu-sobre.webp"
+            src="./src/assets/img/felipe/eu-sobre.webp"
             loading="lazy"
             width="1289"
             height="1138"
@@ -161,7 +169,7 @@
           <li class="skills__item" data-animation>
             <img
               class="skills__icon"
-              src="./assets/svg/html5.svg"
+              src="./src/assets/svg/icons-ui/html5.svg"
               width="128"
               height="128"
               loading="lazy"
@@ -172,7 +180,7 @@
           <li class="skills__item" data-animation>
             <img
               class="skills__icon"
-              src="./assets/svg/css3.svg"
+              src="./src/assets/svg/icons-ui/css3.svg"
               width="128"
               height="128"
               loading="lazy"
@@ -183,7 +191,7 @@
           <li class="skills__item" data-animation>
             <img
               class="skills__icon"
-              src="./assets/svg/javascript.svg"
+              src="./src/assets/svg/icons-ui/javascript.svg"
               width="128"
               height="128"
               loading="lazy"
@@ -194,7 +202,7 @@
           <li class="skills__item" data-animation>
             <img
               class="skills__icon"
-              src="./assets/svg/php.svg"
+              src="./src/assets/svg/icons-ui/php.svg"
               width="128"
               height="128"
               loading="lazy"
@@ -205,7 +213,7 @@
           <li class="skills__item" data-animation>
             <img
               class="skills__icon"
-              src="./assets/svg/node.svg"
+              src="./src/assets/svg/icons-ui/node.svg"
               width="128"
               height="128"
               loading="lazy"
@@ -216,7 +224,7 @@
           <li class="skills__item" data-animation>
             <img
               class="skills__icon"
-              src="./assets/svg/bootstrap.svg"
+              src="./src/assets/svg/icons-ui/bootstrap.svg"
               width="128"
               height="128"
               loading="lazy"
@@ -227,7 +235,7 @@
           <li class="skills__item" data-animation>
             <img
               class="skills__icon"
-              src="./assets/svg/jQuery.svg"
+              src="./src/assets/svg/icons-ui/jQuery.svg"
               width="128"
               height="128"
               loading="lazy"
@@ -238,7 +246,7 @@
           <li class="skills__item" data-animation>
             <img
               class="skills__icon"
-              src="./assets/svg/react.svg"
+              src="./src/assets/svg/icons-ui/react.svg"
               width="128"
               height="128"
               loading="lazy"
@@ -249,7 +257,7 @@
           <li class="skills__item" data-animation>
             <img
               class="skills__icon"
-              src="./assets/svg/sass.svg"
+              src="./src/assets/svg/icons-ui/sass.svg"
               width="24"
               height="24"
               loading="lazy"
@@ -260,7 +268,7 @@
           <li class="skills__item" data-animation>
             <img
               class="skills__icon"
-              src="./assets/svg/gulp.svg"
+              src="./src/assets/svg/icons-ui/gulp.svg"
               width="24"
               height="24"
               loading="lazy"
@@ -271,7 +279,7 @@
           <li class="skills__item" data-animation>
             <img
               class="skills__icon"
-              src="./assets/svg/figma.svg"
+              src="./src/assets/svg/icons-ui/figma.svg"
               width="24"
               height="24"
               loading="lazy"
@@ -282,7 +290,7 @@
           <li class="skills__item" data-animation>
             <img
               class="skills__icon"
-              src="./assets/svg/pwa.svg"
+              src="./src/assets/svg/icons-ui/pwa.svg"
               width="24"
               height="24"
               loading="lazy"
@@ -293,7 +301,7 @@
           <li class="skills__item" data-animation>
             <img
               class="skills__icon"
-              src="./assets/svg/wordpress.svg"
+              src="./src/assets/svg/icons-ui/wordpress.svg"
               width="24"
               height="24"
               loading="lazy"
@@ -318,7 +326,7 @@
           <ul class="contacts__list">
             <li class="contacts__item">
               <img
-                src="./assets/svg/whats-min.svg"
+                src="./src/assets/svg/icons-ui/whats-min.svg"
                 width="88"
                 height="88"
                 alt=""
@@ -337,7 +345,7 @@
             </li>
             <li class="contacts__item">
               <img
-                src="./assets/svg/mail-min.svg"
+                src="./src/assets/svg/icons-ui/mail-min.svg"
                 width="98"
                 height="78"
                 alt=""
@@ -356,7 +364,7 @@
             </li>
             <li class="contacts__item">
               <img
-                src="./assets/svg/linkdln-min.svg"
+                src="./src/assets/svg/icons-ui/linkdln-min.svg"
                 width="82"
                 height="82"
                 alt=""
@@ -375,7 +383,7 @@
             </li>
             <li class="contacts__item">
               <img
-                src="./assets/svg/github-min.svg"
+                src="./src/assets/svg/icons-ui/github-min.svg"
                 width="50"
                 height="50"
                 alt=""
