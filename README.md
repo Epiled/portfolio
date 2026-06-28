@@ -45,15 +45,15 @@ The following technologies were used to build this project:
 
 Access the live application below to interact with the interface and run your own performance tests
 
-Portfólio: [https://epiled.github.io/portfolio/](https://epiled.github.io/portfolio/)
+Portfólio: [https://portifolio-felipe-de-andrade.vercel.app/](https://portifolio-felipe-de-andrade.vercel.app/)
 
 ### Desktop
 
-Coming Soon!
+[desktop.webm](https://github.com/user-attachments/assets/705283f3-b64e-4816-9aac-aa477f36d897)
 
 ### Mobile
 
-Coming Soon!
+[mobile.webm](https://github.com/user-attachments/assets/2101a69a-464b-49e0-9e12-4e41a3986376)
 
 ## 📦 Install and Use
 
