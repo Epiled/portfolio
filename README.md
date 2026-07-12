@@ -1,4 +1,4 @@
-[Social Preview](./design/github/social-preview/social-preview.png)
+![Social Preview](./design/github/social-preview/social-preview.png)
 
 <h1 align="center"> 🎩 Portfólio 👨‍💻 </h1>
 
