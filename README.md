@@ -43,7 +43,7 @@ The following technologies were used to build this project:
 
 ## 🚀 Demo
 
-Access the live application below to interact with the interface and run your own performance tests
+Access the live application below to interact with the interface and run your own performance tests.
 
 Portfólio: [https://portifolio-felipe-de-andrade.vercel.app/](https://portifolio-felipe-de-andrade.vercel.app/)
 
@@ -77,7 +77,7 @@ npm run dev
 
 ## 📂 File Structure
 
-Below is the project architecture. All development should be done inside the src/ folder
+Below is the project architecture. All development should be done inside the src/ folder.
 
 ```
 portifolio/
