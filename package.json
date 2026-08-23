@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "version": "1.0.0",
   "description": "Personal portfolio website built with HTML, CSS and JavaScript",
   "scripts": {
     "dev": "browser-sync start --server --files \"*.html, css/*.css, js/*.js\""
@@ -23,6 +24,5 @@
   "homepage": "https://github.com/Epiled/portfolio#readme",
   "devDependencies": {
     "browser-sync": "^3.0.4"
-  },
-  "version": "1.0.0"
+  }
 }
