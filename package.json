@@ -23,5 +23,6 @@
   "homepage": "https://github.com/Epiled/portfolio#readme",
   "devDependencies": {
     "browser-sync": "^3.0.4"
-  }
+  },
+  "version": "1.0.0"
 }
