@@ -4,10 +4,17 @@
 	 viewBox="0 0 2048 2048" style="enable-background:new 0 0 2048 2048;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
+	.st1{display:none;}
+	.st2{fill:#BF0600;}
 </style>
 <symbol  id="Save" viewBox="-32 -32 64 64">
 	<path class="st0" d="M21.2,32H-32v-64h64v53.5L21.2,32z M8.6,25V7.3h-7V25H8.6z M25-25h-50v50h8.9V0.3h31.7V25h2.8l6.6-6.4V-25z"/>
 </symbol>
-<circle cx="1024" cy="1024" r="1025"/>
-<use xlink:href="#Save"  width="64" height="64" id="Icon" x="-32" y="-32" transform="matrix(15 0 0 -15 1024 1024)" style="overflow:visible;"/>
+<circle class="st1" cx="1024" cy="1024" r="1025"/>
+<use xlink:href="#Save"  width="64" height="64" id="Icon" x="-32" y="-32" transform="matrix(15 0 0 -15 1024 1024)" style="display:none;overflow:visible;"/>
+<g>
+	<polygon class="st2" points="609.2,927.4 382.3,1031.4 609.2,1142.9 609.2,1402.9 24,1031.4 609.2,660.8 	"/>
+	<path class="st2" d="M889.8,1809H675.2l536.5-1570h214.6L889.8,1809z"/>
+	<polygon class="st2" points="2024,1031.4 1438.8,1402.9 1438.8,1142.9 1665.7,1031.4 1438.8,927.4 1438.8,660.8 	"/>
+</g>
 </svg>
