@@ -1,7 +1,26 @@
 {
+  "name": "portfolio",
+  "description": "Personal portfolio website built with HTML, CSS and JavaScript",
   "scripts": {
-    "dev": "browser-sync start --server --files '*.html, css/*.css, js/*.js'"
+    "dev": "browser-sync start --server --files \"*.html, css/*.css, js/*.js\""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Epiled/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "html",
+    "css",
+    "javascript",
+    "frontend"
+  ],
+  "author": "Felipe De Andrade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Epiled/portfolio/issues"
+  },
+  "homepage": "https://github.com/Epiled/portfolio#readme",
   "devDependencies": {
     "browser-sync": "^3.0.4"
   }
